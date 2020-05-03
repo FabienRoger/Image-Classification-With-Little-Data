@@ -31,6 +31,6 @@ using alpha = 0.0001,  lambda = 0.01,  training accuracy = 0.95, val accuracy = 
 using alpha = 0.00003, lambda = 0.05,  training accuracy = 0.93, val accuracy = 0.78\
 using alpha = 0.00003, lambda = 0.2,   training accuracy = 0.92, val accuracy = 0.91\
 using alpha = 0.00001, lambda = 0.1,   training accuracy = 0.64, val accuracy = 0.78\
-using alpha = 0.00003, lambda = 0.4,   training accuracy = 0.93, val accuracy = 0.81\
+using alpha = 0.00003, lambda = 0.4,   training accuracy = 0.93, val accuracy = 0.81
 
 I've also tried longer training times, but they just cause more overfitting.
