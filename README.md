@@ -4,7 +4,7 @@ A neural network attempts to predict whether given images are dragons, eagles or
 
 ## How to Use It
 
-Put around a hundred photos of each class you want the network to be able to distinguish eis separate folders in data/train/
+Put around a hundred photos of each class you want the network to be able to distinguish in separate folders in data/train/
 Make sure the numbers of classes in constants.py is the same as the number of folders.
 Put the photos you want to classify in data/test/test/, their classes will be printed by the console.
 
