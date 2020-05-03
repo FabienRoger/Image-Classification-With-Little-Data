@@ -7,8 +7,7 @@ pred_gen = DataCreator().predict_generator()
 
 net = Network(classes = CLASSES,inner_nodes = INNER_NODES, name = 'my predictor',learning_rate=0.00003, regularization = 0.2)
 
-#Uncomment that line if you want to load the best model
-net.load(name = 'eagles dragons cats best')
+#net.load()
 
 hist = net.train(train_gen,val_gen,2,verbose = 1)
 
