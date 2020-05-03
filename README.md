@@ -18,7 +18,7 @@ The base model used is the built in MobileNetV2, of which the fully connected la
 
 Given the little amount of data, I attempt to reduce overfitting by using l2 regularization on the first dense layer. I don't attempt to fine tune the base model, it's weights are fixed.
 
-The base model uses dropout, so we expect the training accuracy to be worse than the validation accuracy if no overfitting is seen. Given the small amount of computation my computer can do, I only tried a handful of values are tried.
+The base model uses dropout, so we expect the training accuracy to be worse than the validation accuracy if no overfitting is seen. Given the small amount of computation my computer can do, I only tried a handful of values.
 
 ## Results
 
