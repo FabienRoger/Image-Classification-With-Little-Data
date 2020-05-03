@@ -1,1 +1,1 @@
-Put images of the first type in this folders. At least 8 images are required (size of the batches).
+Put images of the second type in this folders. At least 8 images are required (size of the batches).
