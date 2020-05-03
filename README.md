@@ -20,7 +20,7 @@ The base model uses dropout, so we expect the training accuracy to be worse than
 
 ## Results
 
-I achieve a validation accuracy of 0.91 (with training accuracy of 0.92). It correctly classifies the images I put as an example in data/test/test/.
+I achieve a validation accuracy of 0.91 (with training accuracy of 0.92).
 
 Results for various hyperparameters values I tested, after 2 epochs (on the whole dataset)\
 (alpha is the learning rate, lambda is the regularization strength)\
