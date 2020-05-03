@@ -24,13 +24,13 @@ The base model uses dropout, so we expect the training accuracy to be worse than
 
 I achieve a validation accuracy of 0.91 (with training accuracy of 0.92). It correctly classifies the images I put as an example in data/test/test/.
 
-Results for various hyperparameters values I tested, after 2 epochs (on the whole dataset)
-(alpha is the learning rate, lambda is the regularization strength)
-using alpha = 0.001,   lambda = 0.001, training accuracy = 0.75, val accuracy = 0.28
-using alpha = 0.0001,  lambda = 0.01,  training accuracy = 0.95, val accuracy = 0.75
-using alpha = 0.00003, lambda = 0.05,  training accuracy = 0.93, val accuracy = 0.78
-using alpha = 0.00003, lambda = 0.2,   training accuracy = 0.92, val accuracy = 0.91
-using alpha = 0.00001, lambda = 0.1,   training accuracy = 0.64, val accuracy = 0.78
-using alpha = 0.00003, lambda = 0.4,   training accuracy = 0.93, val accuracy = 0.81
+Results for various hyperparameters values I tested, after 2 epochs (on the whole dataset)\
+(alpha is the learning rate, lambda is the regularization strength)\
+using alpha = 0.001,   lambda = 0.001, training accuracy = 0.75, val accuracy = 0.28\
+using alpha = 0.0001,  lambda = 0.01,  training accuracy = 0.95, val accuracy = 0.75\
+using alpha = 0.00003, lambda = 0.05,  training accuracy = 0.93, val accuracy = 0.78\
+using alpha = 0.00003, lambda = 0.2,   training accuracy = 0.92, val accuracy = 0.91\
+using alpha = 0.00001, lambda = 0.1,   training accuracy = 0.64, val accuracy = 0.78\
+using alpha = 0.00003, lambda = 0.4,   training accuracy = 0.93, val accuracy = 0.81\
 
 I've also tried longer training times, but they just cause more overfitting.
