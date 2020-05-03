@@ -8,8 +8,6 @@ Put around a hundred photos of each class you want the network to be able to dis
 Make sure the numbers of classes in constants.py is the same as the number of folders.
 Put the photos you want to classify in data/test/test/, their classes will be printed by the console.
 
-The model achieving the best performances can be found in /models/ and will be automatically loaded if you follow the instruction in main.py
-
 ## How It Works
 
 I used a dataset of a few hundreds of photos of images of cats, eagles and dragons found online, through image queries on Google Images and Bing Images. In total, 639 images are used for training, and 69 are used for validation.
