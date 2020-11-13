@@ -32,3 +32,7 @@ using alpha = 0.00001, lambda = 0.1,   training accuracy = 0.64, val accuracy = 
 using alpha = 0.00003, lambda = 0.4,   training accuracy = 0.93, val accuracy = 0.81
 
 I've also tried longer training times, but they just cause more overfitting.
+
+## Credits
+
+I used chunks of code from adityaanantharaman to see how to use flow_from_directory in this context. His code : https://github.com/adityaanantharaman/transfer-learning
